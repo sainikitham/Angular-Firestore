@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+.container .row {
+    margin-left: 2.25rem !important;
+    margin-right: 3.25rem !important;
+}

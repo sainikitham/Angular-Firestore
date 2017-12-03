@@ -1,0 +1,15 @@
+<br>
+<div class="row">
+    <form (ngSubmit)="onsubmit()" class="col s12">
+        <div class="row">
+          <div class="input-field col s5">
+             <input type="text" placeholder="Add Title" [(ngModel)]="item.title" name="title">
+          </div>
+          <div class="input-field col s5">
+              <input type="text" placeholder="Add Description" [(ngModel)]="item.description" name="Dedescrp">
+           </div>
+          <input type="submit" value="+" class="btn-floating btn-large waves-effect waves-light red">
+        </div>
+      </form>
+</div>
+      
